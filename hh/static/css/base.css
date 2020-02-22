@@ -1,0 +1,44 @@
+*{box-sizing: border-box;  margin:0; padding:0;}
+body{font-size:12px; background:#f0f0f0; min-width:1200px;}
+span{display:inline-block;}
+a{color:inherit; text-decoration: none}
+a:hover{color:inherit;}
+.button_box{text-align:right; margin:40px 0 20px 0;}
+button{background:#444; border:1px solid #333; color:#fff; padding:10px 20px;}
+button:hover{background:#333; cursor:pointer;}
+
+.menus{width:280px; height:100%; border-right:1px solid #eee; position:fixed; left:0; top:0; background:#444;  overflow: hidden;}
+.menus p{font-size:20px; font-weight:bold; display:block; color:#fff; padding:10px; margin:20px 0;}
+.menus a:first-child{margin-top:150px;}
+.menus a{font-size:15px; display:block; color:#fff; padding:15px 10px; border-bottom:1px solid #484848; margin:0 5px;}
+.menus a:hover{background:#333}
+
+.contents{position:relative; background:#fff; width:1000px; height:100%; padding:50px; margin:20px 20px 20px 300px;}
+.outbox{background:#fff; padding:50px; display:block; position:relative;}
+
+.product_list{background:#fff; border-collapse:collapse;}
+.product_list tr:first-child{background:#ff4096; color:#fff}
+.product_list td{text-align:center; border:1px solid #f4f4f4; padding:10px; min-width:50px; max-width:120px;}
+.product_list td:first-child{width:10px!important}
+.product_list td .button{color:#000; border:1px solid #eee; display:inline-block; padding:5px 10px;}
+
+.product_list td .write{background:#f4f4f4;}
+.product_list td .write:hover{background:#eee;}
+
+.product_list td .modify{background:#fff}
+.product_list td .modify:hover{background:#eee}
+
+.subject{margin-bottom:20px;}
+.subject p{font-size:20px; padding-bottom:10px; border-bottom:1px solid #888;}
+.subject span{font-size:15px; padding:10px 0;}
+
+.input_attr{font-size:14px; background:#f8f8f8; padding:20px; overflow: hidden; margin-bottom:100px;}
+.input_attr legend{font-size:15px; margin:1em 0;}
+.input_attr p{margin:0.1em 0; background:#f4f4f4;}
+.input_attr p span.label{width:20%; color:#222; text-align:center; padding:1em}
+.input_attr p span.form{width:50%; border:0;}
+.input_attr p span.form input{border:1px solid #eee; padding:0.5em; width:30em;}
+
+.button_add{display:inline-block; text-align:center; vertical-align:middle; height:25px; width:25px; line-height:20px; margin-left:-20px; border:1px solid #ddd; background:#f8f8f8; color:#888; font-weight:bold; font-size:17px; cursor:pointer;}
+
+.label_add{width:18%!important; margin-right:2%; color:#222; text-align:center; padding:1em}
