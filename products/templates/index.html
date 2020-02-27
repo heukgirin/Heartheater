@@ -1,6 +1,11 @@
 {% extends "base.html" %}
-
 {% block title %}제품리스트{% endblock %}
+
+{% block cjs %}
+{% load static%}
+<link rel="stylesheet" type="text/css" href="{% static 'products/css/list.css' %}" />
+
+{% endblock %}
 
 {% block subject %}
 <div class='subject'>

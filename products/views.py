@@ -36,7 +36,7 @@ class WriteAttr(View):
                 company_make = form.data['company_make'],
                 company_sale = form.data['company_sale'],
                 company_as = form.data['company_as'],
-                # company_as = form.data['inform']
+                inform = form.data['inform']
             )
             obj.save()
             return HttpResponseRedirect('/products/')
