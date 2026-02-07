@@ -1,9 +1,0 @@
-.product_list{background:#fff; border-collapse:collapse;}
-.product_list tr:first-child{background:#ff4096; color:#fff}
-.product_list td{text-align:center; border:1px solid #f4f4f4; padding:10px; min-width:50px; max-width:120px;}
-.product_list td:first-child{width:10px!important}
-.product_list td .button{color:#000; border:1px solid #eee; display:inline-block; padding:5px 10px;}
-.product_list td .write{background:#f4f4f4;}
-.product_list td .write:hover{background:#eee;}
-.product_list td .modify{background:#fff}
-.product_list td .modify:hover{background:#eee}
